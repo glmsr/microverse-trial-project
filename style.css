@@ -1,0 +1,39 @@
+html{
+    color: white;
+    background-color: rgb(92, 61, 61);
+
+}
+/* survey header */
+#title{
+    text-align: center;
+    align-self: center;
+}
+#description{
+    text-align: center;
+    align-self: center;
+    /* margin-top: 90px; */
+}
+#survey-form{
+    display: grid;
+    height: 2000px;
+    background-color: rgb(8, 8, 105);
+    
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-items:center;
+    margin-top: 20px;
+}
+
+#name{
+    justify-self: center;
+    height: 30px;
+    width : 200px;
+}
+#email{
+    height: 30px;
+    margin-top: 10px;
+}
+/* @media(max-width: 568px) {
+    #description{
+        /* margin-top: 120px; */
+    
