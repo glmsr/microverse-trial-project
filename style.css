@@ -13,25 +13,32 @@ html{
     align-self: center;
     /* margin-top: 90px; */
 }
+#container{
+    
+}
 #survey-form{
-    display: grid;
+    display: flex;
     height: 2000px;
     background-color: rgb(8, 8, 105);
-    
     margin-left: 150px;
     margin-right: 150px;
-    justify-items:center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 20px;
 }
 
 #name{
+    
     justify-self: center;
     height: 30px;
     width : 200px;
+    margin-top: 20px;
 }
 #email{
+    margin-top: 20px;
     height: 30px;
-    margin-top: 10px;
+    width: 200px;
+
 }
 /* @media(max-width: 568px) {
     #description{
