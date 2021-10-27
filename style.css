@@ -31,10 +31,10 @@ html{
     margin-top: 2rem;
 }
 
-#radio{
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem;    
+#container select {
+    width: 60%;
+    padding: 8px;
+    border-radius: 4px;
 }
 #survey-form{
     display: flex;
@@ -47,7 +47,21 @@ html{
     margin-top: 20px;
     
 }
-
+#textarea {
+    min-height: 120px;
+    width: 60%;
+    padding: 8px;
+}
+#submit {
+    margin-top: .8rem;
+    width: 60%;
+    padding: 8px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(60, 202, 60);
+}
 #name{
     
     justify-self: center;
