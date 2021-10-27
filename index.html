@@ -9,14 +9,45 @@
     
     <form id="survey-form">
         <div id="container">       
-            <div><label for="name">Name</label>
-        <input type="text" id="name">
-    </div>
-        <div><label for="email">E-mail</label>
-        <input type="text" id="email">
+            <div id="name-div">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" placeholder="Enter your name">
+            <div id="email-div">
+                <label for="email">E-mail</label><br>
+                <input type="text" id="email" placeholder="Enter your email">
+            </div>
+            <div id="age-div">
+                <label for="age">Age (optional)</label><br>
+                <input type="text" id="age" placeholder="Age">
+            </div>
+            <div id="age-div">
+                <label for="interests">Which option best describes your current role?</label><br>
+                <select name="" id="interests">
+                    <option label="current" disabled>Select current role</option>
+                    <option label="student">Student</option>
+                    <option label="full">Full Time Job</option>
+                    <option label="full_learner">Full Time Learner</option>
+                    <option label="not to say">Prefer not to say</option>
+                    <option label="other">Other</option>
+
+                </select>
+            </div>
+            <div id="radio">
+                <p>Would you recommend freecodeCamp to somebody?</p>
+                <input type ="radio" id="yes">
+                <label for="yes">Definitely</label>
+                <input type ="radio" id="maybe">
+                <label for="maybe">Maybe</label>
+                <input type ="radio" id="no">
+                <label for="no">Not Sure</label>
+            </div>
+            <div id="textarea">
+                <p>Any comments or suggestions?</p>
+                <input type="text" id="textarea" placeholder="Enter your comment here">
+                <button id ="submit">Submit</button>
+            </div>
         </div>
-        </div>
-    </div>
+        
 </form>
 
 
